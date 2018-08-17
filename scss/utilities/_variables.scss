@@ -1,0 +1,38 @@
+
+$fontset1: 'Source Sans Pro', sans-serif;
+$fontset2:  'Raleway', sans-serif;
+
+$desktop: 796px;
+
+$font: #aaaaaa;
+$theme: #00e8c4;
+$accent: #51ddfc;
+$whitish: #ffffff;
+
+$btn_colorset: (
+  'default' : $accent,
+  'success' :#64d67d ,
+  'error' : #eb6565,
+  'warning' : #f98e41,
+  'info' : #af7de8
+);
+
+$grid_colors: (
+  3 : #db9ffb,
+  4 : #7dcefc ,
+  5 : #8ed28b,
+  6 : #2b87a3,
+  7 : #e38585,
+  8 : #d7936c,
+  12 : #91fade,
+);
+
+$layout: (
+  6 : 1,
+  7 : 1.4,
+  8 : 2,
+  9 : 3,
+  10 : 5,
+);
+
+$border_rad: 7.5px;

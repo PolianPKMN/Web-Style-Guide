@@ -1,0 +1,21 @@
+.form{
+  text-align: center;
+  width: 100%;
+
+  &__input{
+    width: 90%;
+    border: none;
+    border-bottom: 5px solid $theme;
+    margin-top: 3px;
+    padding: 3px 3px;
+
+    @include mq(desktop){
+      padding: 10px 10px;
+    }
+  }
+
+  &__label--hidden{
+    display: none;
+  }
+
+}
